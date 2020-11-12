@@ -22,7 +22,7 @@ class App extends Component {
 </div>
     <div class="Row" id="Contact"> 
 		  <div class="Column_2"> 
-			    <h1>Contact  Urban Tours  @ (773) 255-0222</h1>
+			    <h1>Contact  Urban Tours  @ (555) 555-0222</h1>
             <h2>Give us a call or send us your contact information and we can get started with your dream tour today!<br></br>
                 </h2>
             <form>
