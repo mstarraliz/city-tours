@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import logo from '../../logo.jpg'
 
+
 export default function Navbar() {
     return <nav className="navbar">
     <img src={logo} alt='urban tours logo'  /> 
@@ -16,13 +17,16 @@ export default function Navbar() {
         </li> 
         <li>
             <a href="/" className="nav-link active">
-                tours
+                Tours
             </a>
         </li> 
         <li>
-            <a href="#Contact" className="nav-link">Contact</a>
-        </li> 
+            <a href="#Contact" className="nav-link">Contact</a> 
 
+        </li> 
+        <li>
+            <a href="#Review" className="nav-link">Review</a>
+        </li> 
         </ul>
         
     </nav>

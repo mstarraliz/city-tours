@@ -5,6 +5,7 @@ import TourList from "./components/TourList"
 
 
 
+
 class App extends Component {
   render() {
   return (
@@ -20,9 +21,12 @@ class App extends Component {
         Speak to our Travel Designers to start planning your own tailor-made trip.</p>
 		</div>
 </div>
-    <div class="Row" id="Contact"> 
-		  <div class="Column_2"> 
-			    <h1>Contact  Urban Tours  @ (555) 555-0222</h1>
+
+ 
+    <div class="Column_1" id="Contact">
+      <img src="./urbantoursAbout.jpg"alt='urban tours logo'></img>
+ 
+ <h1>Contact  Urban Tours  @ (555) 555-0222</h1>
             <h2>Give us a call or send us your contact information and we can get started with your dream tour today!<br></br>
                 </h2>
             <form>
@@ -38,7 +42,16 @@ class App extends Component {
                 <input type='submit' />
               
             </form>
-        
+    </div>
+ 
+
+    <div class="Row" id="Review"> 
+		  <div class="Column_2"> 
+
+			    <h1>Reviews</h1>
+            <h2>"Urban Tours sets a new standard!"<br></br></h2>
+            <br></br>
+            <h3>"We had an amazing time on our Urban Tours trip. I love how everything was tailored to our needs, each transport was handled, we had an assistant or a guide or someone everywhere we went, and we even had a backup if we needed to call someone with an issue. The trip itself was wonderful and couldn’t have been better planned unless I had more time for vacation!"</h3>
         </div>
 		</div>
     			
@@ -46,8 +59,9 @@ class App extends Component {
     <footer>
       <p>
         <center>
-          Urban Tours Inc.,
-          <a href="http://tarracokor.com/">Urban Tours</a>
+        
+          <a href="http://tarracokor.com/"><br></br>Urban Tours</a>
+           @Copyright 2019-2020 <br></br> Urban Tours Inc.
         </center>
         <br />
       </p>
